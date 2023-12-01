@@ -30,6 +30,6 @@ ssh-add D:/BaiduNetdiskDownload/project/ao
 #git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:123Reyna/ao.blog.github.io.git pages:pages
+git push -f git@github.com:123Reyna/ao.blog.github.io.git master:pages
 
 cd -
