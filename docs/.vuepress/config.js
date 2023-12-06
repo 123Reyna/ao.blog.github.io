@@ -1,6 +1,7 @@
 module.exports = {
     base: '/aoao.blog/',
     title: "aoao科技分享",
+    port: 4040,
     description: "个人学习记录,各类资源、教程等记录",
     theme: 'reco',
     markdown: {
@@ -52,12 +53,11 @@ module.exports = {
                 title: '算法',
                 children: ['/document/algo/algo'],
                 initialOpenGroupIndex: 1 // 可选的, 默认值是 0
-            }, {
+            },
+            {
                 title: '运维',
                 children: ['/document/devops/devops'],
-                collapsable: true,
-                sidebarDepth: 2,
-                initialOpenGroupIndex: 0 // 可选的, 默认值是 0
+                initialOpenGroupIndex: 1 // 可选的, 默认值是 0
             },
             {
                 title: '项目',
@@ -65,7 +65,7 @@ module.exports = {
                 initialOpenGroupIndex: 1 // 可选的, 默认值是 0
             },
             {
-                title: '学习教程',
+                title: '学习工具',
                 children: ['/document/learn/learn'],
                 initialOpenGroupIndex: 1 // 可选的, 默认值是 0
             }
